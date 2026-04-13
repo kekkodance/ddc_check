@@ -8,7 +8,7 @@
 
 This program is meant for people using multiple monitors, especially artists with drawing tablets that have screens. Its purpose is to handle a common issue where Windows still treats a monitor as active even when it’s turned off.
 
-When a monitor is detected as off through the DDC/CI protocol, the program will effectively “detach” it (without actually disabling DDC/CI). It then moves any open windows to another monitor, prevents new windows from appearing on the "detached" screen, and stops the mouse cursor from moving into that area.
+When a monitor is detected as off through the DDC/CI protocol, the program will effectively emulate “detaching” it (without actually disabling DDC/CI or actually detaching it from Windows). It moves any open windows to another monitor, prevents new windows from appearing on the "detached" screen, and stops the mouse cursor from moving into that area, basically making the screen that's off do nothing.
 
 ## Notes
 
