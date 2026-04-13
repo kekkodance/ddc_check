@@ -1,0 +1,6 @@
+#define IDI_ICON 1
+#define RT_MANIFEST 24
+#define APP_MANIFEST 1
+
+IDI_ICON ICON "icon.ico"
+APP_MANIFEST RT_MANIFEST "ddc_check.exe.manifest"
